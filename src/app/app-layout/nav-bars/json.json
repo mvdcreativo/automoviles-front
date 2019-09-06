@@ -1,0 +1,30 @@
+{
+	"User": "", //usuario (netviax)
+	"Pwd" : "", //contraseña (netviax)
+	"Categoria" : "", //string 
+	"CiaAerea" : "",  //string 
+	"Descripcion" : "",  //string (long text) - ej.: incluye, no incluye , traslados, pasaje, hoteles, tasas, etc.
+	"Duaracion" : "",  //string
+	"Imagen" : "",  //string 
+	"Moneda" : "",  //string 
+	"ObservacionesInt" : "",  //string 
+    "PreciosPaquetes" : {
+        "CHD": "", //float
+        "CUA": "", //float - base cuadruple
+        "CiaAerea": "", //string
+        "DBL": "", //float - base doble
+        "Desde":"", //string o date - especificar
+        "Hasta":"", //string o date - especificar
+        "Hotel":"", //string - nombre hotel
+        "Observaciones": "", //string - ej. "Precio de INF de 0 a 1.99 años - USD - salidas
+        "Regimen": "", //string
+        "SGL": "", //float - base simple
+        "TPL": "", //float - base triple
+        "URL": "", //string - web del hotel
+        "tipo_hab": "", //string
+    },
+    "Programa" : "",  //string - Titulo del paquete
+	"Region" : "",  //string
+	"Salidas" : "",  //string - todas las salidas o "diarias"
+	"ValidoHasta" : "" //string - validez del paquete
+}
